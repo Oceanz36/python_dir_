@@ -40,8 +40,9 @@ print(Toshiba.color)
 print(Panasonic.size)
 
 x = [1, 2, 3, 4, 5, 6]
-x.append(7)
-print(x.append(7))
+x.append("7")
+print(x)
+
 
 
 
