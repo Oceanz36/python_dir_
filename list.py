@@ -45,3 +45,7 @@ for number in x:
 
 
     
+
+    d = [1, 2, 3, 4, 5]
+    d.append(6)
+    print(d)
