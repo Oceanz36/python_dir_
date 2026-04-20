@@ -1,0 +1,21 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load sample data
+data = pd.DataFrame({
+    "Month": ["Jan", "Feb", "Mar", "Apr"],
+    "Revenue": [2000, 3000, 2500, 4000]
+})
+
+print("\nRevenue Data:\n", data)
+
+# Basic analysis
+print("\nTotal Revenue:", data["Revenue"].sum())
+print("Average Revenue:", data["Revenue"].mean())
+
+# Plot
+plt.plot(data["Month"], data["Revenue"])
+plt.title("Monthly Revenue")
+plt.xlabel("Month")
+plt.ylabel("Revenue")
+plt.show()
